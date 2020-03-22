@@ -1,0 +1,150 @@
+
+
+body {
+    font-family: arial, sans-serif;
+}
+
+
+
+/* Navbar */
+
+.navbar {
+    margin: 7px 7px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+    color: black;
+    font-family: arial,sans-serif;
+    position: relative;
+    top: 15px;
+}
+
+a {
+    padding-left: 15px;
+    text-decoration: none;
+    color:black;
+}
+
+.navbar-img {
+    height: 15px;
+    width: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-button {
+    background-color:#4285f4;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+    line-height: 28px;
+    padding: 0 12px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/* Main Container */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.google-logo {
+    height: 130px;
+    width: 400px;
+    position: relative;
+    top: 200px;
+}
+.logo {
+    display:flex;
+    justify-content: center;
+}
+
+.searchbar {
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:auto;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 34px;
+    padding: 5px;
+    position: relative;
+    top: 220px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-bar { 
+display: flex;
+width: 450px;
+margin-left: 8px;
+background-color: transparent;
+border: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+    height: 36px;
+    min-width: 54px;
+    font-size: 14px;
+}
+
+.right-button {
+    margin-left: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.left-button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.right-button:hover {
+    border: 1px solid #c6c6c6;
+}
+.left-button:hover {
+    border: 1px solid #c6c6c6;
+}
+
+
+
+body {
+    font-family: arial, sans-serif;
+}
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.right-footer {
+    justify-content: flex-end;
+}
