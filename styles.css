@@ -1,7 +1,4 @@
 
-
-
-
 /* *****Defaults****** */
 
 body {
@@ -46,16 +43,7 @@ a {
     color: white;
 }
 
-
-
-/***** Main Container (Logo & Searchbar && Buttons) *****/
-
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
+/***** Main Container (Logo && Searchbar && Buttons) *****/
 
 /***** Google Logo ******/
 
@@ -63,7 +51,7 @@ a {
     height: 130px;
     width: 400px;
     position: relative;
-    top: 200px;
+    top: 220px;
     justify-content: center;
     display: flex;
     left: 740px;
@@ -73,29 +61,25 @@ a {
 
 .outer-searchbar {
     display:flex;
-    flex-wrap:wrap;
-    text-align:center;
     margin:auto;
-    border: 2px solid;
+    border: 2px solid rgba(223,225,229,0);
     border-radius: 20px;
     width: 500px;
     height: 34px;
     padding: 5px;
     position: relative;
-    top: 220px;
+    top: 240px;
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-    border-color: rgba(223,225,229,0);
 }
 
 .inner-searchbar { 
     display: flex;
     width: 450px;
     margin-left: 8px;
-    background-color: transparent;
     border: none;
+    font-size: 14px;
+    background-color: transparent;
 }
-
-
 
 /* ******Search Buttons*********** */
 
@@ -104,7 +88,7 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 250px;
+    top: 270px;
     height: 36px;
     min-width: 54px;
     font-size: 14px;
@@ -126,7 +110,7 @@ a {
 }
 
 .lucky-button:hover, .search-button:hover {
-    border: 1px solid #c6c6c6;
+    border: 2px solid #c6c6c6;
 }
 
 /* Footer Section */
@@ -144,8 +128,4 @@ a {
     color: #5f6368;
     padding-left: 27px;
     padding-right: 27px;
-}
-
-.right-footer {
-    justify-content: flex-end;
 }
